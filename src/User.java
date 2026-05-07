@@ -18,6 +18,7 @@ public class User {
     public String getSessionName() {
         return sessionName;
     }
+
     public void setUsername(String username){
         this.username = username;
     }

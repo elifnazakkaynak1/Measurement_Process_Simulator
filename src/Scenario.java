@@ -36,7 +36,7 @@ public class Scenario {
     public void setQualityType(QualityType qualityType) {
         this.qualityType = qualityType;
     }
-    public void addDimension(List<Dimension> dimension) {
-        dimensions.add((Dimension) dimension);
+    public void addDimension(Dimension dimension) {
+        dimensions.add(dimension);
     }
 }
